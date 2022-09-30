@@ -1,0 +1,29 @@
+#stakeSolidCardDiv{
+    margin-bottom: 20px;
+}
+
+
+
+.convertLogoHolder{
+    margin-top: 20px;
+}
+
+
+.withdrawCardMainDiv{
+    background-color: white;
+    height: auto;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+.withdrawCardMainDivExpanded{
+    background-color: white;
+    height: auto;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+
+

@@ -1,0 +1,36 @@
+#converSolidDiv{
+    width: 65%;
+    padding: 0px 0px!important;
+}
+
+
+
+.convertLogoHolder{
+    margin-top: 20px;
+}
+
+
+.stakeRdlCard{
+    background-color: white;
+    height: auto;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+
+.infoRdlCardMainDiv{
+    height: auto;
+    background-color: white;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.unstakeRdlCardMainDiv{
+    height: auto;
+    background-color: white;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

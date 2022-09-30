@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../src/assets/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+.App {
+    font-family: "Poppins"!important;
+}
+
+.swal2-popup {
+  font-size: 0.8rem !important;
+  font-family: "Poppins"!important;
+
+}
+
+.swal2-confirm {
+  color: black!important;
+  outline: none!important;
+  width: 200px;
+  font-weight: bold!important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

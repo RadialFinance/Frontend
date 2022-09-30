@@ -1,0 +1,168 @@
+#converSolidDiv{
+    height: auto;
+    width: 65%;
+    padding: 0px 0px!important;
+    margin-top: 4vh;
+}
+
+#converSolidCard{
+    height: 30vh;
+}
+
+.converSolidCardBody{
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#converSolidHeading{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.converSolidCardHeader{
+    background-color: #F3F3F3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1px solid gainsboro;
+}
+
+.convertLogoHolder{
+    margin-top: 30px;
+}
+
+#logoName{
+    color:black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.convertSolidCardMainHeader{
+    color: black;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 0.8rem;
+}
+
+.convertSolidCardSubHeader{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.converSolidCardNav{
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    padding-left: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.converSolidCardNavLink{
+    height: 5vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.converSolidCardNavLinkActive{
+    font-size: 13px;
+    height: 5vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 3px solid #BA7428;
+    font-weight: bold;
+}
+
+
+.converSolidCardNavLink:hover{
+    cursor: pointer;
+}
+
+.convertCardMainDiv{
+    background-color: white;
+    height: auto;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+.convertCardMainDivExpanded{
+    background-color: white;
+    height: auto;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+.inputFieldBox{
+    border-radius: 50px;
+    width: 100%;
+    border:none;
+    background-color: #EFEFEF;;
+    padding:8px;
+    outline: none;
+}
+
+.inputFieldBox:focus{
+    outline:2px solid #BA7428;
+    border:none;
+}
+
+.convertButton{
+    background-color: black;
+    color:white;
+    border:none;
+    padding:8px 0px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.disabledConvertButton{
+    background-color: white;
+    color:gray;
+    border:1px solid gray;
+    padding:8px 0px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.disabledConvertButton:hover{
+    cursor: default;
+}
+
+.convertMainText{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+#convertSubText{
+    font-size: 0.9rem;
+    padding-right: 50px;
+    font-style: italic;
+}
+
+.infoCardMainDiv{
+    background-color: white;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.unStakeCardMainDiv{
+    height: auto;
+    background-color: white;
+    padding:20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

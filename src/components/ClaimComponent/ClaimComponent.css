@@ -1,0 +1,56 @@
+#claimMainDiv{
+    background-image: url('../../assets/images/StakeBg.png'), linear-gradient(180deg, rgba(98, 54, 0, 0.61) 0%, rgba(247, 148, 28, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 48vh;
+    background-position: top;
+    height: auto;
+    width: 100%;
+}
+
+.claimAndStakeExpaned{
+    background-color: gainsboro;
+    height: 17vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.claimAllButton{
+    width: 200px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.disabledClaimAllButton{
+    width: 200px;
+    padding: 10px 0px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(214, 214, 214);
+}
+
+#claimAllAndStake{
+    width: 67%;
+}
+
+.claimAllInfo{
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.claimRdlveInflationBtn{
+    width: 39%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border:none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}

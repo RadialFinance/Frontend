@@ -1,0 +1,16 @@
+{
+    "RDLManagerAddress" :  "0x651A263aDf04CF26AD61d527c56B549F088251C5",
+    "LPManagerAddress"  :  "0xe470E2B914a0052e6D4A2E14cDb8De988CA8c0Fe",
+    "radialVotingAddress"  :       "0x07192e95B7c46ceD295cE62cC915E145ED608bFE", 
+    "depositorAddress"   :       "0xb2c5548B8EF131921042fB989119d5801a850415", 
+    "poolVotingAddress"  :       "0x3990cf698Bc65D11A713Fbb0b02239C65d426d25", 
+    "RDLInflationManagerAddress" :    "0xBFc1E7A9BDF851F644BbCE6ACF13F63313B0e7DE",
+    "poolBribeManagerAddress"  :    "0x007C4DB3556f347aaa0C2AB0C7f61DD5ecAc51f5", 
+    "whitelistingBribeManagerAddress" : "0xc1c8A7D583935e90bF0251666b0E30Ee842a323a",
+    "RDL": "0x79360aF49edd44F3000303ae212671ac94bB8ba7",
+    "RDL_FTM_POOL": "0x5ef8f0bd4F071B0199603a28ec9343F3651999c0",
+    "SolidlyVoter":"0xdC819F5d05a6859D2faCbB4A44E5aB105762dbaE",
+    "Ve_Dist":"0xa5cefac8966452a78d6692837b2ba83d19b57d07",
+    "starttime":1665014400,
+    "NFT_ID":12
+}

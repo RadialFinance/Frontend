@@ -1,0 +1,75 @@
+#stakeDiv{
+    background-image: url('../../assets/images/StakeBg.png'), linear-gradient(180deg, rgba(98, 54, 0, 0.61) 0%, rgba(247, 148, 28, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 35vh;
+    background-position: top;
+    height: auto;
+    width: 100%;
+}
+
+#stakeOverviewDiv{
+    height: 20vh;
+    width: 35%;
+}
+
+.overViewDataCard{
+    height: 12vh;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    border-radius: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.overViewCardMainHeader{
+    font-weight: 600;
+    color: black;
+    font-size: 0.95rem;
+}
+
+.overViewCardSubHeader{
+    font-weight: 600;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.listText{
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-top: 2px;
+}
+
+.expandArrow{
+    height: 25px;
+    width: 25px;
+}
+
+.shrinkArrow{
+    height: 25px;
+    width: 25px;
+    transform: rotateZ(180deg);
+}
+
+.setToMax{
+    border:none;
+    font-size: 0.7rem;
+    background-color:white;
+    color: #BA7428;
+    font-weight: bold;
+}
+
+.disabledSetToMax{
+    border:none;
+    font-size: 0.7rem;
+    background-color:white;
+    color: gray;
+    font-weight: bold;
+}
+
+.availableSupply{
+    font-size: 0.75rem;
+}

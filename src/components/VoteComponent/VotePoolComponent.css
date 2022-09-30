@@ -1,0 +1,209 @@
+.votePoolMainDiv{
+    background-image: url('../../assets/images/StakeBg.png'), linear-gradient(180deg, rgba(98, 54, 0, 0.61) 0%, rgba(247, 148, 28, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 52vh;
+    background-position: top;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.votePoolHeaderBlocks{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 8px gray;
+}
+
+.votePoolHeader{
+    height: 25vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.votePoolHeaderMainHeader{
+    font-weight: bold;
+}
+
+.votePoolHeaderSubHeader{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.votePageClaimRewardsBtn{
+    background-image: url("../../assets/images/smallLogo.png");
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-position: center;
+    border: none;
+    margin-top: -30px;
+    font-size: 1rem;
+    padding-top: 75px;
+    transition: all 0.2s;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.votePageClaimRewardsBtn:hover{
+    box-shadow: 0px 0px 30px rgb(65, 65, 65);
+    font-weight: bold;
+    color: black;
+}
+
+.claimButtonHolder{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.voteWeekSwitcherDiv{
+    margin-top: 20px;
+    color:white;
+    font-size:1.3rem;
+    text-shadow: 0px 0px 10px rgb(48, 48, 48);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowIcons:hover{
+    cursor: pointer;
+}
+
+.voteMainInfoDiv{
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.voteMainInfoCard{
+    width: 37vw;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gainsboro;
+    margin-bottom: 20px;
+}
+
+.votePoolCardsDiv{
+    width: 63vw;
+    padding-top: 20px;
+}
+
+.votePoolCard{
+    border-radius:15px;
+    box-shadow: 0px 0px 10px gainsboro;
+    padding: 20px;
+}
+
+.votePoolCardHeader{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.incentiveName{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.incentiveSubText{
+    padding-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.votePoolCardRow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.poolcardRowTitle{
+    color: rgb(95, 95, 95);
+}
+
+.voteOnCurveBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.voteOnCurveBtnDisabled{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.voteOnCurveBtnDisabled:hover{
+    cursor: default;
+}
+
+.voteDepositDiv{
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.voteDepositCard{
+    width: 37vw;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gainsboro;
+    margin-bottom: 20px;
+}
+
+.voteAproveButton{
+    background-color: black;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.voteAproveButtonDisabled{
+    background-color: white;
+    color:gray;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border:1px solid gray;
+}
+
+.voteAproveButtonDisabled:hover{
+    cursor: default;
+}
+
+.voteDepositCardMainBodySmall{
+    display: none;
+}
+
+.voteDepositCardMainBodyExpanded{
+    display: block;
+}
+
+.weekNavHolder:hover{
+    cursor: pointer;
+}
+
+.depositDiv:hover{
+    cursor: pointer;
+}
+
+.dropDown{
+    width: 242px;
+}

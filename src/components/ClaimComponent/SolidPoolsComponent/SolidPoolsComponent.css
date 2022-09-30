@@ -1,0 +1,73 @@
+.claimRowHolder{
+    background-color: #E6E6E6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    height: 75px;
+}
+
+.claimRowHolder:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.solidPoolsDiv{
+    width: 67%;
+    margin-bottom: 2vh;
+}
+
+.claimAllPoolButton{
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.disabledClaimAllPoolButton{
+    width: 150px;
+    padding: 10px 0px;
+    border: 2px solid gainsboro;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(212, 212, 212);
+}
+
+.claimRowHeader{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.claimRowSubHeader{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.claimActionColumn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.claimIndividualPoolButton{
+    border:none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 7px 0px;
+    margin-top: -7px;
+    margin-right: 10px;
+}
+
+.disabledClaimIndividualPoolButton{
+    border:2px solid gainsboro;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(214, 214, 214);
+    width: 150px;
+    padding: 7px 0px;
+    margin-top: -7px;
+    margin-right: 10px;
+}

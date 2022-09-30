@@ -1,0 +1,83 @@
+.homeDiv{
+    background-image: url(../../../src/assets/images/HomeBg.png);
+    background-position: center;
+    width: 100%;
+    height: 102vh;
+    background-size: cover;
+}
+
+
+.homeDivHolder{
+    width: 100%;
+    height: 60vh; 
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeDivMainHeading{
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 15vh;
+}
+
+#homeDivSubHeading{
+    font-size: 18px;
+    margin-top: 3vh;
+    color: white;
+    text-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.25);
+}
+
+#homeDivMainButton{
+    padding:10px 10px;
+    text-decoration: none!important;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 4vh;
+    transition: all 0.2s;
+}
+
+#homeDivMainButton:hover{
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+
+#homeDivButtonText{
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+
+#arrowButton{
+    padding-left: 0.5vw;
+}
+
+
+@media screen and (max-width:400px) {
+    .homeDiv{
+        height: 130vh;
+    }
+
+    .homeDivHolder{
+        height: 81vh;
+    }
+
+    #homeDivMainHeading{
+        font-size: 2.1rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0vh;
+    }
+    
+    #homeDivSubHeading{
+        font-size: 1rem;
+        margin-top: 2vh;
+        text-align: center;
+        padding: 0px 10px;
+    }
+}
